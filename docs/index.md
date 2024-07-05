@@ -32,6 +32,11 @@ It is in the interest of these *consumers* of this standard to also *contribute*
 
 Within a DI ecosystem, there are a number of user roles, which are listed below. Any individual user may have one or more of these roles. User roles from a requirements perspective are distinct, albeit potentially related to organizational roles (_e.g._, a service provider, consultant, engineer, researcher, _etc_.). 
 
+The roles described here are both historically descriptive as well as aspirational. They are based on the experience of early creators of decision intelligence software, but include user stories that go beyond what current systems are able to do.  They represent a combination of many person-decades of experience since approximately 2010. At the time of this writing, the roles are consistent with &mdash; and so act as an extension of &mdash; the material within 
+[_The Decision Intelligence Handbook_](https://www.dihandbook.com).
+
+Note that a particular *person* may &mdash; and usually does &mdash; serve multiple roles. The Decision Simulation Builder, for instance, may be the same person as the Decision Simulation Manager.
+
 ### Decision Maker
 
 I use DI software systems to determine the best set of actions to achieve my desired outcomes. I interact with renderings of Causal Decision Models to gain an intuition regarding the causal relationship between actions and outcomes. I have the authority required to adjust all Levers relevant to my decision.
