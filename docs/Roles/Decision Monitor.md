@@ -2,7 +2,7 @@
 
 ## Who is a Decision Monitor?
 
-I am a user who, as a primary goal, is interested in tracking a decision model that has been used by a [Decision Maker](./Decision%20Maker.md) as it is updated with new evidence of outcomes, externals, intermediates, _etc._ that become available after a decision has been made. My primary interest is to identify if the likelihood of achieving the desired outcomes of that Decision Maker have changed. 
+I am a user who, as a primary goal, is interested in tracking a decision model that has been used by a [Decision Maker](./Decision%20Maker.md) as it is updated with new evidence of outcomes, externals, intermediates, _etc._ that become available after a decision has been made. My primary interest is to identify if the likelihood of achieving the desired outcomes of that Decision Maker have changed to such an extent that the decision should be revisited. 
 
 I receive my monitoring system from the [Decison Monitor Builder](./Decision%20Monitor%20Builder.md), and I may pass my results to any of the other roles, because my monitoring may require updates throughout the decision creation process.
 
