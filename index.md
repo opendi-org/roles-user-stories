@@ -2,15 +2,22 @@
 
 ## Purpose
 
-The purpose of this document is to support those contributing to and benefitting from the OpenDI standards. To understand the motivation and background for the OpenDI project as a whole, read [OpenDI Intro Material](./OpenDI%20Intro%20Material.md). This document enumerates typical user roles for Decision Intelligence systems, with links to further descriptions and user stories for each role, in separate documents.
+This document enumerates typical user roles for Decision Intelligence systems, with links to further descriptions and user stories for each role, in separate documents.
+By doing so, it supports better consistency in other documents that describe the software systems used by these users.  You can read this document both so that you may benefit from and also that you can contribute to, OpenDI standards.
 
-### Why read this document?
+This document assumes you're familiar with [OpenDI Intro Material](./OpenDI%20Intro%20Material.md), which sets the stage for the material here.
 
-As a foundation for the rest of the OpenDI Reference Architecture &mdash; and in keeping with best practices in user-centered design &mdash; it's important to understand how a DI system like this is to be used.
+### Why start with user roles?
+
+By situating all standards within software systems that are used in well-defined ways by people in the roles described here, we are able to create better standards and software systems because they serve user's needs that have been studied for many years.  In addition, by standardizing around user roles, this leads to better consistency and interoperability in systems that we create.
+
+This document therefore serves as a foundation for the rest of the OpenDI Reference Architecture. In keeping with best practices in user-centered design &mdash; it's important to understand how a DI system is to be used.
 
 As a foundation for that, in turn, it's important to start with _who_ will be using the DI system, and _why_.  
 
-The purpose of this living document is therefore to capture user stories for the DI reference architecture, which was summarized in Figure 2. User stories, per [Agile best practice](https://www.atlassian.com/agile/project-management/user-stories) are not requirements, but are plain-language descriptions of how software "will provide value to users".  They provide a framework into which more detailed, "functional", requirements are added later.  Over meany years of software development, we've learned that, if our goal is to build systems that are "fit for purpose", explaining things in this chronological sequence of steps is the easiest for humans to understand and therefore review to ensure we're building the right solutions.
+START HERE
+The purpose of this living document is therefore to capture user stories for the DI reference architecture, which was summarized in Figure 2 in [OpenDI Intro Material](./OpenDI%20Intro%20Material.md).
+User stories, per [Agile best practice](https://www.atlassian.com/agile/project-management/user-stories) are not requirements, but are plain-language descriptions of how software "will provide value to users".  They provide a framework into which more detailed, "functional", requirements are added later.  Over meany years of software development, we've learned that, if our goal is to build systems that are "fit for purpose", explaining things in this way is the easiest for humans to understand to ensure we're building the right solutions.
 
 ### Objective
 
@@ -18,11 +25,12 @@ With the above information as context, then, the objective of this document is t
 1. *Contributors:* To align contributors to the OpenDI Reference Architecture so we are all on the same page as to what software users need; and
 2. *Consumers:* To serve as the authoritative point of reference for engineering teams that are working on the OpenDI Reference Architecture directly or implementing OpenDI features in an OpenDI-compliant artifact. 
 
-By way of illustration for #2, a software vendor might be interested in creating just one part of this architecture - perhaps the connection to data in the bottom layer of Figure 2.  They can read this document to ensure that the system they build can be integrated with systems from other vendors that help a user to create a decision model, and to use a decision simulation system. This means that the data connection vendor can deliver its products much faster to market, because it doesn't have to deliver the entire "stack" of DI modules.
+By way of illustration for #2, a software vendor might be interested in creating just one part of this architecture - perhaps the connection to data in the bottom layer of Figure 2 of 
+[OpenDI Intro Material](./OpenDI%20Intro%20Material.md).  Such a vendor can read this document to ensure that the system they build can be integrated with systems from other vendors that help a user to create a decision model, and to use a decision simulation system. This means that the data connection vendor can deliver its products much faster to market, because it doesn't have to deliver the entire "stack" of DI modules.
 
-There are also open source teams that are developing modules that are compliant with the architecture summarized in Figure 2.   This means that if you are developing a proprietary module, then by following this standard you'll be able to leverage those open source systems, thereby de-risking and de-costing your product.  
+There are also open source teams that are developing modules that are compliant with the OpenDI architecture.  This means that if you are developing a proprietary module, then by following this standard you'll be able to leverage those open source systems, thereby de-risking and de-costing your product.  
 
-Note that the roles and associated use cases in this document are limited to those associated with the use of DI software systems. Out of scope for this document are roles and use cases that don't involve the use of DI software. For example, [_The Decision Intelligence Handbook_](www.dihandbook.com) describes a process for creating a decision framing document, which is the responsibility of a Decision Team Leader role. This role is not explicitly called out in this document, because they don't interact with DI software in ways that aren't covered by other roles. Nor is the creation of the Framing Document a user story described here, for the same reason.
+Note that the roles and associated use cases in this document are limited to those associated with the use of DI _software systems. Out of scope for this document are roles and use cases that don't involve the use of DI software. For example, [_The Decision Intelligence Handbook_](www.dihandbook.com) describes a process for creating a decision framing document, which is the responsibility of a Decision Team Leader role. This role is not explicitly called out in this document, because they don't interact with DI software in ways that aren't covered by other roles. Nor is the creation of the Framing Document a user story described here, for the same reason.
 
 ### Who reads this document?
 Generally speaking, we expect this document to be used by software architects and/or technical leads who have decided to build software modules that follow the OpenDI standard.  Larger teams may even designate a formal "standards liason" role whose job it is to keep up with ecosystem activities.  
@@ -34,13 +42,13 @@ Within a DI ecosystem, there are a number of user roles, which are listed below.
 
 ### Decision Maker
 
-I use DI software systems to determine the best set of actions to achieve my desired outcomes. I interact with renderings of Causal Decision Models to gain an intuition regarding the causal relationship between actions and outcomes. I have the authority required to adjust all Levers relevant to my decision.
+I use DI software systems to determine the best set of actions to achieve my desired outcomes. I interact with renderings of Causal Decision Models to gain an intuition regarding the causal relationship between actions and outcomes. I have the authority required to adjust all Levers relevant to my decision, and typically am responsible for the Outcomes.
 
 [Link: Decision Maker (Full Role Description).](./Roles/Decision%20Maker.md)
 
 ### DI Analyst
 
-I collaborate with stakeholders to produce customer-facing artifacts. These artifacts enable Decision Model Builders to build Causal Decision Models.
+I collaborate with stakeholders to produce Decision Maker-facing artifacts. These artifacts enable Decision Model Builders to build Causal Decision Models.
 
 [Link: DI Analyst (Full Role Description).](./Roles/DI%20Analyst.md)
 
@@ -82,35 +90,26 @@ I rig Causal Decision Models so that they can be monitored, using evidence of ou
 
 ### Decision Monitor
 
-I track a Causal Decision Model that has been used by a Decision Maker as it is updated with new evidence of outcomes, externals, and other decision element values. My primary interest is identifying whether the likelihood of achieving the Decision Maker's desired outcomes has substantively changed.
+I track a Causal Decision Model that has been used by a Decision Maker as it is updated with new evidence of outcomes, externals, and other decision element values _after_ an Action is taken. My primary interest is identifying whether the likelihood of achieving the Decision Maker's desired outcomes has substantively changed, and therefore to possibly trigger a re-examination of the decision.
 
 [Link: Decision Monitor (Full Role Description).](./Roles/Decision%20Monitor.md)
 
 ### Decision Quality Assurance Manager
 
-I provide oversight at every stage of the DI process, to ensure that models and simulations are authored, run, and monitored in such a way that they are fit for purpose.
+I provide oversight to a project that includes DI, to ensure that models and simulations are authored, run, and monitored in such a way that they are fit for purpose.
 
 [Link: Quality Assurance Manager (Full Role Description).](Decision%20Quality%20Assurance%20Manager.md)
 
 ## About this document
 
 ### Status of this document
-At this point in time, this document is the first in an expected series of OpenDI standards publications.  It has been drafted by the OpenDI founders (DLR and LP so far) and others (IK) in advance of a planned review by a small team before being released for public comment.
+At this point in time, this document is the first in an expected series of OpenDI standards publications.  It has been drafted by the OpenDI founders (DLR and LP so far) and others (IK) in preparation for public comment.
 
-Generally speaking, we feel that the list of user roles is quite complete, and we are in the process of refining the user stories associated with each role. This document does not, however, at the current time, list the specific chronological steps in each user story.  We're not sure if it ever will; this is an open question atm.
+Generally speaking, we feel that the list of user roles is quite complete, and we are in the process of refining the user stories associated with each role. This document does not, however, at the current time, list the specific chronological steps in each user story.  We're not sure if it ever will; this is an open question at this time.  Feedback is welcome.
 
 ### OpenDI compliance
 At the time of this writing, there is no formal assessment procedure nor criteria for what it means for software to be "OpenDI compliant".  We expect that this will remain the case for the foreseeable future.
 
 ### Known Issues
-This section exists to handle cases where we want to inform the community that we are aware of high-profile issues with the relased version of the documentation.
 
-For up-to-date issues, to-do items, etc., see this repository's [issues](https://github.com/opendi-org/user-stories-internal/issues) page.
-
-### Document History
-
-* (v0.0.4): 04/10/2024--05/07/2024: Refactored document, splitting content across multiple files: individual role files, separate glossary doc, OpenDI intro doc, overview doc. Done by Isaac Kellogg (isaac.kellogg@quantellia.com)
-* (v0.0.3): 03/10/2024--03/31/2024: Updated entire document top to bottom, ready for review (lorien.pratt@quantellia.com)
-* v0.0.2: 01/23/2024--02/07/2024: Revision by Dave Roberts (dlrober4@ncsu.edu).
-* v0.0.1: 07/31/2023--08/03/2023: Review by Dave Roberts (dlrober4@ncsu.edu), Lorien Pratt (lorien.pratt@quantellia.com), Nadine Malcolm (nadine.Malcolm@quantellia.com), and Mark Zangari (mark.zangari@quantellia.com).
-* v0.0.0: 07/2023: Initial drafting by Dave Roberts (dlrober4@ncsu.edu), based on discussion with Lorien Pratt (lorien.pratt@quantellia.com) and Nadine Malcolm (nadine.Malcolm@quantellia.com) as memorialized [here](https://docs.google.com/document/d/1btub6XIUhmhT1yEhVIGpuEwEVdhalEUd7TpbYk_aMbQ/edit). 
+This repository's [issues](https://github.com/opendi-org/user-stories-internal/issues) page describes known issues with this document.
