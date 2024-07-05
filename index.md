@@ -48,7 +48,7 @@ I use DI software systems to determine the best set of actions to achieve my des
 
 ### DI Analyst
 
-I collaborate with stakeholders to produce stakeholder-facing (primarily Decision Maker-facing) artifacts early in the DI process. The purpose of these artifacts is to enable Decision Model Builders to build Causal Decision Models.
+I collaborate with stakeholders to produce stakeholder-facing artifacts early in the DI process. The primary purpose of these artifacts is to enable Decision Model Builders to build Causal Decision Models.
 
 [Link: DI Analyst (Full Role Description).](./Roles/DI%20Analyst.md)
 
