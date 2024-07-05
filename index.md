@@ -42,13 +42,13 @@ Within a DI ecosystem, there are a number of user roles, which are listed below.
 
 ### Decision Maker
 
-I use DI software systems to determine the best set of actions to achieve my desired outcomes. I interact with renderings of Causal Decision Models to gain an intuition regarding the causal relationship between actions and outcomes. I have the authority required to adjust all Levers relevant to my decision, and typically am responsible for the Outcomes.
+I use DI software systems to determine the best set of actions to achieve my desired outcomes. I interact with renderings of Causal Decision Models to gain an intuition regarding the causal relationship between actions and outcomes and/or to receive recommended actions for my review and/or to review fully automated (not human-in-the-loop) automated DI systems. I have the authority required to adjust all Levers relevant to my decision, and typically I am also responsible for the Outcomes.
 
 [Link: Decision Maker (Full Role Description).](./Roles/Decision%20Maker.md)
 
 ### DI Analyst
 
-I collaborate with stakeholders to produce Decision Maker-facing artifacts. These artifacts enable Decision Model Builders to build Causal Decision Models.
+I collaborate with stakeholders to produce stakeholder-facing (primarily Decision Maker-facing) artifacts early in the DI process. The purpose of these artifacts is to enable Decision Model Builders to build Causal Decision Models.
 
 [Link: DI Analyst (Full Role Description).](./Roles/DI%20Analyst.md)
 
