@@ -2,10 +2,10 @@
 
 ## Purpose
 
-This document enumerates typical user roles for Decision Intelligence systems, with links to further descriptions and user stories for each role, in separate documents.
+This document enumerates typical user roles for Decision Intelligence systems, with links to further descriptions and user stories for each role, in separate documents.  
 By doing so, it supports better consistency in other documents that describe the software systems used by these users.  You can read this document both so that you may benefit from and also that you can contribute to, OpenDI standards.
 
-This document assumes you're familiar with [OpenDI Intro Material](./OpenDI%20Intro%20Material.md), which sets the stage for the material here.
+This document assumes you're familiar with [OpenDI Intro Material](https://opendi.org/OpenDI%20Intro%20Material/), which sets the stage for the material here.
 
 ### Why start with user roles?
 
@@ -15,21 +15,22 @@ This document therefore serves as a foundation for the rest of the OpenDI Refere
 
 As a foundation for that, in turn, it's important to start with _who_ will be using the DI system, and _why_.  
 
-The purpose of this living document is therefore to capture user stories for the DI reference architecture, which was summarized in Figure 2 in [OpenDI Intro Material](./OpenDI%20Intro%20Material.md).
-User stories, per [Agile best practice](https://www.atlassian.com/agile/project-management/user-stories) are not requirements, but are plain-language descriptions of how software "will provide value to users".  They provide a framework into which more detailed, "functional", requirements are added later.  Over meany years of software development, we've learned that, if our goal is to build systems that are "fit for purpose", explaining things in this way is the easiest for humans to understand to ensure we're building the right solutions.
+The purpose of this living document is therefore to capture user stories for the DI reference architecture, which is summarized in Figure 2 in [OpenDI Intro Material](https://opendi.org/OpenDI%20Intro%20Material/).  
+User stories, per [Agile best practice](https://www.atlassian.com/agile/project-management/user-stories) are not requirements, but are plain-language descriptions of how software "will provide value to users".  They provide a framework into which more detailed, "functional", requirements are added later.  Over many years of software development, we've learned that, if our goal is to build systems that are "fit for purpose", explaining things in this way is the easiest for humans to understand and to ensure we're building the right solutions.
 
 ### Objective
 
 With the above information as context, then, the objective of this document is twofold:
+
 1. *Contributors:* To align contributors to the OpenDI Reference Architecture so we are all on the same page as to what software users need; and
 2. *Consumers:* To serve as the authoritative point of reference for engineering teams that are working on the OpenDI Reference Architecture directly or implementing OpenDI features in an OpenDI-compliant artifact. 
 
 By way of illustration for #2, a software vendor might be interested in creating just one part of this architecture - perhaps the connection to data in the bottom layer of Figure 2 of 
-[OpenDI Intro Material](./OpenDI%20Intro%20Material.md).  Such a vendor can read this document to ensure that the system they build can be integrated with systems from other vendors that help a user to create a decision model, and to use a decision simulation system. This means that the data connection vendor can deliver its products much faster to market, because it doesn't have to deliver the entire "stack" of DI modules.
+[OpenDI Intro Material](https://opendi.org/OpenDI%20Intro%20Material/).  Such a vendor can read this document to ensure that the system they build can be integrated with systems from other vendors that help a user to create a decision model, and to use a decision simulation system. This means that the data connection vendor can deliver its products much faster to market, because it doesn't have to deliver the entire "stack" of DI modules.
 
 There are also open source teams that are developing modules that are compliant with the OpenDI architecture.  This means that if you are developing a proprietary module, then by following this standard you'll be able to leverage those open source systems, thereby de-risking and de-costing your product.  
 
-Note that the roles and associated use cases in this document are limited to those associated with the use of DI _software systems. Out of scope for this document are roles and use cases that don't involve the use of DI software. For example, [_The Decision Intelligence Handbook_](www.dihandbook.com) describes a process for creating a decision framing document, which is the responsibility of a Decision Team Leader role. This role is not explicitly called out in this document, because they don't interact with DI software in ways that aren't covered by other roles. Nor is the creation of the Framing Document a user story described here, for the same reason.
+Note that the roles and associated use cases in this document are limited to those associated with the use of DI software systems. Out of scope for this document are roles and use cases that don't involve the use of DI software. For example, [_The Decision Intelligence Handbook_](http://www.dihandbook.com) describes a process for creating a decision framing document, which is the responsibility of a Decision Team Leader role. This role is not explicitly called out in this document, because it does not interact with DI software in ways that aren't covered by other roles. Nor is the creation of the Framing Document a user story described here, for the same reason.
 
 ### Who reads this document?
 Generally speaking, we expect this document to be used by software architects and/or technical leads who have decided to build software modules that follow the OpenDI standard.  Larger teams may even designate a formal "standards liason" role whose job it is to keep up with ecosystem activities.  
@@ -90,7 +91,7 @@ Once simulations have been created by the Decision Simulation Builder, I perform
 
 I rig Causal Decision Models so that they can be monitored, using evidence of outcomes, externals, and other decision element values. Rigged models are evaluated for whether the likelihood of achieving desirable outcomes has substantively changed.
 
-[Link: Monitor Builder (Full Role Description).](Decision%20Monitor%20Builder.md)
+[Link: Monitor Builder (Full Role Description).](./Roles/Decision%20Monitor%20Builder.md)
 
 ### Decision Monitor
 
@@ -102,14 +103,14 @@ I track a Causal Decision Model that has been used by a Decision Maker as it is 
 
 I provide oversight to a project that includes DI, to ensure that models and simulations are authored, run, and monitored in such a way that they are fit for purpose.
 
-[Link: Quality Assurance Manager (Full Role Description).](Decision%20Quality%20Assurance%20Manager.md)
+[Link: Quality Assurance Manager (Full Role Description).](./Roles/Decision%20Quality%20Assurance%20Manager.md)
 
 ## About this document
 
 ### Status of this document
 At this point in time, this document is the first in an expected series of OpenDI standards publications.  It has been drafted by the OpenDI founders (DLR and LP so far) and others (IK) in preparation for public comment.
 
-Generally speaking, we feel that the list of user roles is quite complete, and we are in the process of refining the user stories associated with each role. This document does not, however, at the current time, list the specific chronological steps in each user story.  We're not sure if it ever will; this is an open question at this time.  Feedback is welcome.
+Generally speaking, we feel that the list of user roles is quite complete, and we are in the process of refining the user stories associated with each role. This document does not, however, at the current time, list the specific chronological steps in each user story.  We're not sure if it ever will; this is an open question at this time. [Feedback is welcome](https://opendi.org/How%20To%20Contribute/).
 
 ### OpenDI compliance
 At the time of this writing, there is no formal assessment procedure nor criteria for what it means for software to be "OpenDI compliant".  We expect that this will remain the case for the foreseeable future.
