@@ -117,4 +117,4 @@ At the time of this writing, there is no formal assessment procedure nor criteri
 
 ### Known Issues
 
-This repository's [issues](https://github.com/opendi-org/user-stories-internal/issues) page describes known issues with this document.
+This repository's [issues](https://github.com/opendi-org/roles-user-stories/issues) page describes known issues with this document.
