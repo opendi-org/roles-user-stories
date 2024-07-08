@@ -2,7 +2,7 @@
 
 ## Who is a Decision Asset Manager?
 
-As a Decision Asset Manager, I am responsible for curating a library of decision assets in a form usable by other roles. My work involves identifying reusable assets that arise during other parts of the DI workflow, or as standalone efforts outside that scope, and ensuring that these assets are available to those who need them.
+As a Decision Asset Manager, I am responsible for curating a library of decision assets in a form usable by other roles. My work involves identifying reusable assets that arise during other parts of the DI workflow, or as standalone efforts outside that scope. I also ensure that these assets are available to those who need them.
 
 The assets I create are accessed by [Decision Model Builders](./Decision%20Model%20Builder.md), [DI Analysts](./DI%20Analyst.md), and [Decision Simulation Builders](./Decision%20Simulation%20Builder.md). They are typically used by [Decision Model Builders](./Decision%20Model%20Builder.md), [DI analysts](./DI%20Analyst.md), [Decision Simulation Builders](./Decision%20Simulation%20Builder.md), [Decision Monitor Builders](./Decision%20Monitor%20Builder.md), and [Decision Monitors](./Decision%20Monitor.md).
 

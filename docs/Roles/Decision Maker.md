@@ -22,5 +22,5 @@ I work in the time frame *before* a decision is made, to help choose Actions or 
    Interacting with renderings will include selecting decision model components to gain more information, focusing on different parts of the decision model, and selecting and modifying Actions and/or Externals using user interface controls.
 2. As a Decision Maker, I want to  __view simulation results__ of decision models so that I can improve my understanding of how actions lead to different outcomes in different circumstances, so that I can learn which combinations of actions lead to the best set of outcomes.   
 These results may be presented in *forward-only mode*, where I can experiment with externals and/or actions and observe their impact on outcomes.  These results may also be presented in *optimization mode*, where I can observe the outcomes resulting from many different combinations of actions and outcomes.
-3. As a Decision Maker, I want to ___receive recommendations__ of Actions or combinations of Actions that the DI system thinks are most likely to lead to my desired outcomes.
-4. As a Decision Maker, I want to ___receive explanations__ justifying recommended Actions or combinations of Actions.
+3. As a Decision Maker, I want to __receive recommendations__ of Actions or combinations of Actions that the DI system thinks are most likely to lead to my desired outcomes.
+4. As a Decision Maker, I want to __receive explanations__ justifying recommended Actions or combinations of Actions.

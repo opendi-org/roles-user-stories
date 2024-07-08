@@ -15,7 +15,7 @@ When I am done, I hand off my CDM to the [Decision Simulation Builder](./Decisio
 ## User Stories
 
 1. As a Decision Model Builder, I want to **form a team of collaborators**, so that others may contribute to building and/or modifying a model.
-2. As a Decision Model Builder, I want to **edit a model**, to adjust its existing structure or elements of decision element, so that I can fix errors, incorporate new knowledge, or explore the potential of different model entities or structures.  
+2. As a Decision Model Builder, I want to **edit a model**, to adjust its existing structure or decision elements, so that I can fix errors, incorporate new knowledge, or explore the potential of different model entities or structures.  
    As part of the editing process, I may want to create, update, or delete actions, outcomes, intermediates, or other Decision Elements.
 3. As a Decision Model Builder, I want to **search for model components in the asset library** (maintained by the [Decision Asset Manager](./Decision%20Asset%20Manager.md)), so that I can reuse or repurpose existing actions, outcomes, and other Decision Elements that have been used in the past by me or by others, and incorporate them into the model I am currently building.  
    I may want to utilize assets in this way both while authoring new models from scratch or while editing existing models.
