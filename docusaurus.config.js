@@ -13,10 +13,10 @@ const config = {
   favicon: 'img/opendi-icon-small.png',
 
   // Set the production url of your site here
-  url: 'http://roles-user-stories.opendi.org',
+  url: 'http://opendi.org',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/roles-user-stories/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -109,11 +109,11 @@ const config = {
               },
               {
                 label: 'Roles and User Stories',
-                href: 'http://roles-user-stories.opendi.org'
+                href: 'http://opendi.org/roles-user-stories'
               },
               {
-                label: 'JSON Schema',
-                href: 'http://json-schema.opendi.org'
+                label: 'API Specification',
+                href: 'http://opendi.org/api-specification'
               },
             ],
           },
