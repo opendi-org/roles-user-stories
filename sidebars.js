@@ -83,6 +83,11 @@ const sidebars = {
           type: 'link',
           label: 'API Specification',
           href: 'http://opendi.org/api-specification'
+        },
+        {
+            type: 'link',
+            label: 'CDM Authoring Tool',
+            href: 'http://opendi.org/cdd-authoring-tool'
         }
       ]
     }
