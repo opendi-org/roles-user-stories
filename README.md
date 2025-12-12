@@ -1,4 +1,4 @@
-![](./docs/img/opendi-logo.png)
+![](./static/img/opendi-logo.png)
 
 # Welcome to OpenDI
 
