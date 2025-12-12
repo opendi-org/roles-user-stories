@@ -8,9 +8,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'OpenDI - Roles and User Stories (DRAFT)',
+  title: 'OpenDI Roles and User Stories',
   tagline: 'Early draft of Roles and User Stories for the upcoming OpenDI standards',
-  favicon: 'img/opendi-icon-small.png',
+  favicon: 'img/opendi-favicon.ico',
 
   // Set the production url of your site here
   url: 'http://opendi.org',
@@ -90,17 +90,18 @@ const config = {
     ({
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'OpenDI',
         logo: {
           alt: 'OpenDI Logo',
-          src: 'img/opendi-icon.png',
+          src: 'img/opendi-logo.png',
+          srcDark: 'img/opendi-logo-dark.png',
+          href: 'https://opendi.org'
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'landingSidebar',
             position: 'left',
-            label: 'Roles and User Stories (DRAFT)',
+            label: 'OpenDI Reference Roles and User Stories (DRAFT)',
           },
           {
             type: 'docsVersionDropdown',
@@ -124,11 +125,62 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Community',
             items: [
               {
-                label: 'Home',
-                to: 'http://opendi.org',
+                label: 'Discord',
+                href: 'https://discord.gg/FtAX3JStJz',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/opendi-org',
+              },
+            ],
+          },
+          {
+            title: 'Resources',
+            items: [
+              {
+                label: 'Blog',
+                href: 'http://opendi.org/',
+              },
+              {
+                label: 'Decision Intelligence News',
+                href: 'https://www.scoop.it/topic/decision-intelligence/',
+              },
+              {
+                label: 'OpenDI Glossary',
+                href: 'http://opendi.org',
+              },
+            ],
+          },
+          {
+            title: 'Follow Us',
+            items: [
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/company/opendi-org/',
+              },
+              {
+                label: 'Facebook',
+                href: 'https://www.facebook.com/people/OpenDi/100095177432725/'
+              },
+              {
+                label: 'YouTube',
+                href: 'https://www.youtube.com/channel/UC4Thj0JegsJ3csqb-iEPI5A'
+              },
+              {
+                label: 'BlueSky',
+                href: 'https://bsky.app/profile/opendi.bsky.social'
+              }
+            ],
+          },
+          {
+            title: 'OpenDI',
+            items: [
+              {
+                label: 'Main Site',
+                href: 'http://opendi.org',
               },
               {
                 label: 'Roles and User Stories',
@@ -140,21 +192,8 @@ const config = {
               },
             ],
           },
-          {
-            title: 'Get Involved',
-            items: [
-              {
-                label: 'OpenDI Discord',
-                href: 'https://discord.gg/FtAX3JStJz',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/opendi-org',
-              },
-            ],
-          },
         ],
-        copyright: `Built with Docusaurus.`,
+        copyright: `© 2025-26 OpenDI. All rights reserved.`,
       },
       prism: {
         theme: prismThemes.github,
