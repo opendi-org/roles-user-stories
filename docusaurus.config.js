@@ -154,7 +154,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                href: 'http://opendi.org/',
+                href: 'http://opendi.org/blog',
               },
               {
                 label: 'Decision Intelligence News',
@@ -162,7 +162,7 @@ const config = {
               },
               {
                 label: 'OpenDI Glossary',
-                href: 'http://opendi.org',
+                href: 'http://opendi.org/glossary',
               },
               {
                 label: 'Decision Intelligence Webinars',
