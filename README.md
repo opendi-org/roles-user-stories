@@ -1,8 +1,8 @@
-![](./docs/img/opendi-icon.png)
+![](./static/img/opendi-logo.png)
 
 # Welcome to OpenDI
 
-Welcome! You're currently browsing source files for the OpenDI public website - Roles and User Stories.
+Welcome! You're currently browsing source files for the OpenDI Roles and User Stories docs.
 
 ## Get started
 
