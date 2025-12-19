@@ -78,12 +78,14 @@
   /* Ensure logo stays centered vertically */
   display: flex;
   align-items: center;
-  img {
-    /* Adjust height to 90% of navbar height */
-    width: auto;
-    height: calc(var(--ifm-navbar-height, 4em) * 0.9);
-    max-height: var(--ifm-navbar-height);
-  }
+}
+
+.navbar__brand img,
+.navbar__logo img {
+  /* Adjust height to 90% of navbar height */
+  width: auto;
+  height: calc(var(--ifm-navbar-height, 4em) * 0.9);
+  max-height: var(--ifm-navbar-height);
 }
 
 /* 
